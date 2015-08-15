@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388626061B7F9EAA00B86BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626051B7F9EAA00B86BD9 /* main.m */; };
+		388626091B7F9EAA00B86BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626081B7F9EAA00B86BD9 /* AppDelegate.m */; };
+		3886260C1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3886260A1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld */; };
+		3886260F1B7F9EAA00B86BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886260E1B7F9EAA00B86BD9 /* ViewController.m */; };
+		388626121B7F9EAA00B86BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388626101B7F9EAA00B86BD9 /* Main.storyboard */; };
+		388626141B7F9EAA00B86BD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388626131B7F9EAA00B86BD9 /* Images.xcassets */; };
+		388626171B7F9EAA00B86BD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388626151B7F9EAA00B86BD9 /* LaunchScreen.xib */; };
+		388626231B7F9EAA00B86BD9 /* EatOKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626221B7F9EAA00B86BD9 /* EatOKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3886261D1B7F9EAA00B86BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 388625F81B7F9EAA00B86BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388625FF1B7F9EAA00B86BD9;
+			remoteInfo = EatOK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		388626001B7F9EAA00B86BD9 /* EatOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		388626041B7F9EAA00B86BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388626051B7F9EAA00B86BD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		388626071B7F9EAA00B86BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		388626081B7F9EAA00B86BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3886260B1B7F9EAA00B86BD9 /* EatOK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EatOK.xcdatamodel; sourceTree = "<group>"; };
+		3886260D1B7F9EAA00B86BD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3886260E1B7F9EAA00B86BD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		388626111B7F9EAA00B86BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		388626131B7F9EAA00B86BD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		388626161B7F9EAA00B86BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3886261C1B7F9EAA00B86BD9 /* EatOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		388626211B7F9EAA00B86BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388626221B7F9EAA00B86BD9 /* EatOKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatOKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388625FD1B7F9EAA00B86BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388626191B7F9EAA00B86BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388625F71B7F9EAA00B86BD9 = {
+			isa = PBXGroup;
+			children = (
+				388626021B7F9EAA00B86BD9 /* EatOK */,
+				3886261F1B7F9EAA00B86BD9 /* EatOKTests */,
+				388626011B7F9EAA00B86BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388626011B7F9EAA00B86BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388626001B7F9EAA00B86BD9 /* EatOK.app */,
+				3886261C1B7F9EAA00B86BD9 /* EatOKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388626021B7F9EAA00B86BD9 /* EatOK */ = {
+			isa = PBXGroup;
+			children = (
+				388626071B7F9EAA00B86BD9 /* AppDelegate.h */,
+				388626081B7F9EAA00B86BD9 /* AppDelegate.m */,
+				3886260D1B7F9EAA00B86BD9 /* ViewController.h */,
+				3886260E1B7F9EAA00B86BD9 /* ViewController.m */,
+				388626101B7F9EAA00B86BD9 /* Main.storyboard */,
+				388626131B7F9EAA00B86BD9 /* Images.xcassets */,
+				388626151B7F9EAA00B86BD9 /* LaunchScreen.xib */,
+				3886260A1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld */,
+				388626031B7F9EAA00B86BD9 /* Supporting Files */,
+			);
+			path = EatOK;
+			sourceTree = "<group>";
+		};
+		388626031B7F9EAA00B86BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388626041B7F9EAA00B86BD9 /* Info.plist */,
+				388626051B7F9EAA00B86BD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3886261F1B7F9EAA00B86BD9 /* EatOKTests */ = {
+			isa = PBXGroup;
+			children = (
+				388626221B7F9EAA00B86BD9 /* EatOKTests.m */,
+				388626201B7F9EAA00B86BD9 /* Supporting Files */,
+			);
+			path = EatOKTests;
+			sourceTree = "<group>";
+		};
+		388626201B7F9EAA00B86BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				388626211B7F9EAA00B86BD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388625FF1B7F9EAA00B86BD9 /* EatOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388626261B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOK" */;
+			buildPhases = (
+				388625FC1B7F9EAA00B86BD9 /* Sources */,
+				388625FD1B7F9EAA00B86BD9 /* Frameworks */,
+				388625FE1B7F9EAA00B86BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatOK;
+			productName = EatOK;
+			productReference = 388626001B7F9EAA00B86BD9 /* EatOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3886261B1B7F9EAA00B86BD9 /* EatOKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388626291B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOKTests" */;
+			buildPhases = (
+				388626181B7F9EAA00B86BD9 /* Sources */,
+				388626191B7F9EAA00B86BD9 /* Frameworks */,
+				3886261A1B7F9EAA00B86BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3886261E1B7F9EAA00B86BD9 /* PBXTargetDependency */,
+			);
+			name = EatOKTests;
+			productName = EatOKTests;
+			productReference = 3886261C1B7F9EAA00B86BD9 /* EatOKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		388625F81B7F9EAA00B86BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = StartNode;
+				TargetAttributes = {
+					388625FF1B7F9EAA00B86BD9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3886261B1B7F9EAA00B86BD9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 388625FF1B7F9EAA00B86BD9;
+					};
+				};
+			};
+			buildConfigurationList = 388625FB1B7F9EAA00B86BD9 /* Build configuration list for PBXProject "EatOK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 388625F71B7F9EAA00B86BD9;
+			productRefGroup = 388626011B7F9EAA00B86BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388625FF1B7F9EAA00B86BD9 /* EatOK */,
+				3886261B1B7F9EAA00B86BD9 /* EatOKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388625FE1B7F9EAA00B86BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388626121B7F9EAA00B86BD9 /* Main.storyboard in Resources */,
+				388626171B7F9EAA00B86BD9 /* LaunchScreen.xib in Resources */,
+				388626141B7F9EAA00B86BD9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3886261A1B7F9EAA00B86BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		388625FC1B7F9EAA00B86BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388626091B7F9EAA00B86BD9 /* AppDelegate.m in Sources */,
+				388626061B7F9EAA00B86BD9 /* main.m in Sources */,
+				3886260F1B7F9EAA00B86BD9 /* ViewController.m in Sources */,
+				3886260C1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		388626181B7F9EAA00B86BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388626231B7F9EAA00B86BD9 /* EatOKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3886261E1B7F9EAA00B86BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 388625FF1B7F9EAA00B86BD9 /* EatOK */;
+			targetProxy = 3886261D1B7F9EAA00B86BD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		388626101B7F9EAA00B86BD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388626111B7F9EAA00B86BD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		388626151B7F9EAA00B86BD9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388626161B7F9EAA00B86BD9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388626241B7F9EAA00B86BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		388626251B7F9EAA00B86BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388626271B7F9EAA00B86BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		388626281B7F9EAA00B86BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EatOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3886262A1B7F9EAA00B86BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EatOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatOK.app/EatOK";
+			};
+			name = Debug;
+		};
+		3886262B1B7F9EAA00B86BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EatOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EatOK.app/EatOK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		388625FB1B7F9EAA00B86BD9 /* Build configuration list for PBXProject "EatOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388626241B7F9EAA00B86BD9 /* Debug */,
+				388626251B7F9EAA00B86BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388626261B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388626271B7F9EAA00B86BD9 /* Debug */,
+				388626281B7F9EAA00B86BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		388626291B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3886262A1B7F9EAA00B86BD9 /* Debug */,
+				3886262B1B7F9EAA00B86BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3886260A1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3886260B1B7F9EAA00B86BD9 /* EatOK.xcdatamodel */,
+			);
+			currentVersion = 3886260B1B7F9EAA00B86BD9 /* EatOK.xcdatamodel */;
+			path = EatOK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 388625F81B7F9EAA00B86BD9 /* Project object */;
+}
