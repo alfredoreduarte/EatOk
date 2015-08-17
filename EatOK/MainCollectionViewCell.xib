@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MainCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="f30-0I-vVr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                    </imageView>
+                    <view alpha="0.45000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hDM-d5-Fpc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="140"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mME-fQ-ZD9">
+                        <rect key="frame" x="0.0" y="45" width="375" height="35"/>
+                        <attributedString key="attributedText">
+                            <fragment content="BREAKFAST">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="29" name="HelveticaNeue-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mME-fQ-ZD9" secondAttribute="trailing" id="HFg-84-sWQ"/>
+                <constraint firstItem="mME-fQ-ZD9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rx4-Qj-Fof"/>
+                <constraint firstAttribute="trailing" secondItem="hDM-d5-Fpc" secondAttribute="trailing" id="aW1-bS-BTl"/>
+                <constraint firstItem="hDM-d5-Fpc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bqF-96-u9k"/>
+                <constraint firstAttribute="trailing" secondItem="f30-0I-vVr" secondAttribute="trailing" id="dP5-8B-xmq"/>
+                <constraint firstItem="f30-0I-vVr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="k9d-tH-6pW"/>
+                <constraint firstItem="mME-fQ-ZD9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="45" id="kBq-ZM-8RT"/>
+                <constraint firstItem="f30-0I-vVr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rb6-Aw-jDY"/>
+                <constraint firstAttribute="bottom" secondItem="f30-0I-vVr" secondAttribute="bottom" id="uMX-00-OeW"/>
+                <constraint firstItem="hDM-d5-Fpc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ybe-27-gYe"/>
+                <constraint firstAttribute="bottom" secondItem="hDM-d5-Fpc" secondAttribute="bottom" id="zwH-yA-PbS"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundImage" destination="f30-0I-vVr" id="nVz-Tt-urO"/>
+                <outlet property="title" destination="mME-fQ-ZD9" id="LsB-zM-WGC"/>
+            </connections>
+            <point key="canvasLocation" x="245.5" y="324"/>
+        </collectionViewCell>
+    </objects>
+</document>

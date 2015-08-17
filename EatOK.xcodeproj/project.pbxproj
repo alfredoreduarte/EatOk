@@ -10,11 +10,28 @@
 		388626061B7F9EAA00B86BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626051B7F9EAA00B86BD9 /* main.m */; };
 		388626091B7F9EAA00B86BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626081B7F9EAA00B86BD9 /* AppDelegate.m */; };
 		3886260C1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3886260A1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld */; };
-		3886260F1B7F9EAA00B86BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886260E1B7F9EAA00B86BD9 /* ViewController.m */; };
 		388626121B7F9EAA00B86BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 388626101B7F9EAA00B86BD9 /* Main.storyboard */; };
 		388626141B7F9EAA00B86BD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388626131B7F9EAA00B86BD9 /* Images.xcassets */; };
 		388626171B7F9EAA00B86BD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388626151B7F9EAA00B86BD9 /* LaunchScreen.xib */; };
 		388626231B7F9EAA00B86BD9 /* EatOKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626221B7F9EAA00B86BD9 /* EatOKTests.m */; };
+		3886262E1B7FB03400B86BD9 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886262D1B7FB03400B86BD9 /* MainCollectionViewController.m */; };
+		388626321B7FB04D00B86BD9 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626301B7FB04D00B86BD9 /* MainCollectionViewCell.m */; };
+		388626331B7FB04D00B86BD9 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388626311B7FB04D00B86BD9 /* MainCollectionViewCell.xib */; };
+		388626371B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626361B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.m */; };
+		3886263B1B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886263A1B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.m */; };
+		3886263E1B814A2100B86BD9 /* MenuCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886263D1B814A2100B86BD9 /* MenuCollectionViewController.m */; };
+		388626421B814AE100B86BD9 /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626401B814AE100B86BD9 /* MenuCollectionViewCell.m */; };
+		388626431B814AE100B86BD9 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388626411B814AE100B86BD9 /* MenuCollectionViewCell.xib */; };
+		388626461B814B8500B86BD9 /* MenuCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626451B814B8500B86BD9 /* MenuCollectionViewLayout.m */; };
+		388626571B815F5700B86BD9 /* SelectedCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626561B815F5700B86BD9 /* SelectedCollectionViewLayout.m */; };
+		3886265B1B815F6C00B86BD9 /* SelectedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626591B815F6C00B86BD9 /* SelectedCollectionViewCell.m */; };
+		3886265C1B815F6C00B86BD9 /* SelectedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3886265A1B815F6C00B86BD9 /* SelectedCollectionViewCell.xib */; };
+		3886265F1B815F7C00B86BD9 /* SelectedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886265E1B815F7C00B86BD9 /* SelectedCollectionViewController.m */; };
+		388626621B817C7F00B86BD9 /* BigFooterUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626611B817C7F00B86BD9 /* BigFooterUIButton.m */; };
+		388626641B817C9C00B86BD9 /* BigFooterUIButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388626631B817C9C00B86BD9 /* BigFooterUIButton.xib */; };
+		388626661B817D2D00B86BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 388626651B817D2D00B86BD9 /* ViewController.m */; };
+		389C25E11B8198E400169223 /* ShutterSpeeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 389C25E01B8198E400169223 /* ShutterSpeeds.plist */; };
+		69D87D820AC2695D3800CAF3 /* libPods-EatOK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA43A4C047EDA6AF9ADFD38 /* libPods-EatOK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +52,43 @@
 		388626081B7F9EAA00B86BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3886260B1B7F9EAA00B86BD9 /* EatOK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EatOK.xcdatamodel; sourceTree = "<group>"; };
 		3886260D1B7F9EAA00B86BD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3886260E1B7F9EAA00B86BD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		388626111B7F9EAA00B86BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		388626131B7F9EAA00B86BD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		388626161B7F9EAA00B86BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3886261C1B7F9EAA00B86BD9 /* EatOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388626211B7F9EAA00B86BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388626221B7F9EAA00B86BD9 /* EatOKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EatOKTests.m; sourceTree = "<group>"; };
+		3886262C1B7FB03400B86BD9 /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		3886262D1B7FB03400B86BD9 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		3886262F1B7FB04D00B86BD9 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		388626301B7FB04D00B86BD9 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		388626311B7FB04D00B86BD9 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		388626351B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewStackedLayout.h; sourceTree = "<group>"; };
+		388626361B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewStackedLayout.m; sourceTree = "<group>"; };
+		388626391B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewExpandedLayout.h; sourceTree = "<group>"; };
+		3886263A1B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewExpandedLayout.m; sourceTree = "<group>"; };
+		3886263C1B814A2100B86BD9 /* MenuCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewController.h; sourceTree = "<group>"; };
+		3886263D1B814A2100B86BD9 /* MenuCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewController.m; sourceTree = "<group>"; };
+		3886263F1B814AE100B86BD9 /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		388626401B814AE100B86BD9 /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
+		388626411B814AE100B86BD9 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		388626441B814B8500B86BD9 /* MenuCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewLayout.h; sourceTree = "<group>"; };
+		388626451B814B8500B86BD9 /* MenuCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewLayout.m; sourceTree = "<group>"; };
+		388626551B815F5700B86BD9 /* SelectedCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCollectionViewLayout.h; sourceTree = "<group>"; };
+		388626561B815F5700B86BD9 /* SelectedCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCollectionViewLayout.m; sourceTree = "<group>"; };
+		388626581B815F6C00B86BD9 /* SelectedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCollectionViewCell.h; sourceTree = "<group>"; };
+		388626591B815F6C00B86BD9 /* SelectedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCollectionViewCell.m; sourceTree = "<group>"; };
+		3886265A1B815F6C00B86BD9 /* SelectedCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedCollectionViewCell.xib; sourceTree = "<group>"; };
+		3886265D1B815F7C00B86BD9 /* SelectedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCollectionViewController.h; sourceTree = "<group>"; };
+		3886265E1B815F7C00B86BD9 /* SelectedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCollectionViewController.m; sourceTree = "<group>"; };
+		388626601B817C7F00B86BD9 /* BigFooterUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigFooterUIButton.h; sourceTree = "<group>"; };
+		388626611B817C7F00B86BD9 /* BigFooterUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigFooterUIButton.m; sourceTree = "<group>"; };
+		388626631B817C9C00B86BD9 /* BigFooterUIButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BigFooterUIButton.xib; sourceTree = "<group>"; };
+		388626651B817D2D00B86BD9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		389C25E01B8198E400169223 /* ShutterSpeeds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShutterSpeeds.plist; sourceTree = "<group>"; };
+		59DB9B422D684AF8C0A874FB /* Pods-EatOK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatOK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EatOK/Pods-EatOK.debug.xcconfig"; sourceTree = "<group>"; };
+		B7A313E15C5092180DC89315 /* Pods-EatOK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatOK.release.xcconfig"; path = "Pods/Target Support Files/Pods-EatOK/Pods-EatOK.release.xcconfig"; sourceTree = "<group>"; };
+		EEA43A4C047EDA6AF9ADFD38 /* libPods-EatOK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EatOK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D87D820AC2695D3800CAF3 /* libPods-EatOK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28B81C48B22D9521781638DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59DB9B422D684AF8C0A874FB /* Pods-EatOK.debug.xcconfig */,
+				B7A313E15C5092180DC89315 /* Pods-EatOK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		388625F71B7F9EAA00B86BD9 = {
 			isa = PBXGroup;
 			children = (
 				388626021B7F9EAA00B86BD9 /* EatOK */,
 				3886261F1B7F9EAA00B86BD9 /* EatOKTests */,
 				388626011B7F9EAA00B86BD9 /* Products */,
+				28B81C48B22D9521781638DE /* Pods */,
+				C6528C257AF40193567D9289 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +144,17 @@
 			children = (
 				388626071B7F9EAA00B86BD9 /* AppDelegate.h */,
 				388626081B7F9EAA00B86BD9 /* AppDelegate.m */,
+				388626381B7FB0C300B86BD9 /* Layouts */,
+				388626341B7FB05000B86BD9 /* Views */,
+				389C25E01B8198E400169223 /* ShutterSpeeds.plist */,
 				3886260D1B7F9EAA00B86BD9 /* ViewController.h */,
-				3886260E1B7F9EAA00B86BD9 /* ViewController.m */,
-				388626101B7F9EAA00B86BD9 /* Main.storyboard */,
+				388626651B817D2D00B86BD9 /* ViewController.m */,
+				3886262C1B7FB03400B86BD9 /* MainCollectionViewController.h */,
+				3886262D1B7FB03400B86BD9 /* MainCollectionViewController.m */,
+				3886263C1B814A2100B86BD9 /* MenuCollectionViewController.h */,
+				3886263D1B814A2100B86BD9 /* MenuCollectionViewController.m */,
+				3886265D1B815F7C00B86BD9 /* SelectedCollectionViewController.h */,
+				3886265E1B815F7C00B86BD9 /* SelectedCollectionViewController.m */,
 				388626131B7F9EAA00B86BD9 /* Images.xcassets */,
 				388626151B7F9EAA00B86BD9 /* LaunchScreen.xib */,
 				3886260A1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld */,
@@ -122,6 +189,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		388626341B7FB05000B86BD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				388626101B7F9EAA00B86BD9 /* Main.storyboard */,
+				3886262F1B7FB04D00B86BD9 /* MainCollectionViewCell.h */,
+				388626301B7FB04D00B86BD9 /* MainCollectionViewCell.m */,
+				388626311B7FB04D00B86BD9 /* MainCollectionViewCell.xib */,
+				3886263F1B814AE100B86BD9 /* MenuCollectionViewCell.h */,
+				388626401B814AE100B86BD9 /* MenuCollectionViewCell.m */,
+				388626411B814AE100B86BD9 /* MenuCollectionViewCell.xib */,
+				388626581B815F6C00B86BD9 /* SelectedCollectionViewCell.h */,
+				388626591B815F6C00B86BD9 /* SelectedCollectionViewCell.m */,
+				3886265A1B815F6C00B86BD9 /* SelectedCollectionViewCell.xib */,
+				388626601B817C7F00B86BD9 /* BigFooterUIButton.h */,
+				388626611B817C7F00B86BD9 /* BigFooterUIButton.m */,
+				388626631B817C9C00B86BD9 /* BigFooterUIButton.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		388626381B7FB0C300B86BD9 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				388626351B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.h */,
+				388626361B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.m */,
+				388626391B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.h */,
+				3886263A1B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.m */,
+				388626441B814B8500B86BD9 /* MenuCollectionViewLayout.h */,
+				388626451B814B8500B86BD9 /* MenuCollectionViewLayout.m */,
+				388626551B815F5700B86BD9 /* SelectedCollectionViewLayout.h */,
+				388626561B815F5700B86BD9 /* SelectedCollectionViewLayout.m */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		C6528C257AF40193567D9289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEA43A4C047EDA6AF9ADFD38 /* libPods-EatOK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 388626261B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOK" */;
 			buildPhases = (
+				5FACE1E947991494E9902FDB /* Check Pods Manifest.lock */,
 				388625FC1B7F9EAA00B86BD9 /* Sources */,
 				388625FD1B7F9EAA00B86BD9 /* Frameworks */,
 				388625FE1B7F9EAA00B86BD9 /* Resources */,
+				5F7C87031F42D2334EA16759 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,6 +283,7 @@
 				TargetAttributes = {
 					388625FF1B7F9EAA00B86BD9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6Q4ZHTCT23;
 					};
 					3886261B1B7F9EAA00B86BD9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -202,9 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389C25E11B8198E400169223 /* ShutterSpeeds.plist in Resources */,
 				388626121B7F9EAA00B86BD9 /* Main.storyboard in Resources */,
 				388626171B7F9EAA00B86BD9 /* LaunchScreen.xib in Resources */,
+				388626431B814AE100B86BD9 /* MenuCollectionViewCell.xib in Resources */,
+				3886265C1B815F6C00B86BD9 /* SelectedCollectionViewCell.xib in Resources */,
 				388626141B7F9EAA00B86BD9 /* Images.xcassets in Resources */,
+				388626331B7FB04D00B86BD9 /* MainCollectionViewCell.xib in Resources */,
+				388626641B817C9C00B86BD9 /* BigFooterUIButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +335,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F7C87031F42D2334EA16759 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatOK/Pods-EatOK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FACE1E947991494E9902FDB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		388625FC1B7F9EAA00B86BD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3886263B1B813DBA00B86BD9 /* MainCollectionViewExpandedLayout.m in Sources */,
+				3886265F1B815F7C00B86BD9 /* SelectedCollectionViewController.m in Sources */,
+				3886262E1B7FB03400B86BD9 /* MainCollectionViewController.m in Sources */,
+				3886263E1B814A2100B86BD9 /* MenuCollectionViewController.m in Sources */,
+				3886265B1B815F6C00B86BD9 /* SelectedCollectionViewCell.m in Sources */,
 				388626091B7F9EAA00B86BD9 /* AppDelegate.m in Sources */,
 				388626061B7F9EAA00B86BD9 /* main.m in Sources */,
-				3886260F1B7F9EAA00B86BD9 /* ViewController.m in Sources */,
+				388626421B814AE100B86BD9 /* MenuCollectionViewCell.m in Sources */,
+				388626571B815F5700B86BD9 /* SelectedCollectionViewLayout.m in Sources */,
+				388626661B817D2D00B86BD9 /* ViewController.m in Sources */,
+				388626371B7FB0C000B86BD9 /* MainCollectionViewStackedLayout.m in Sources */,
 				3886260C1B7F9EAA00B86BD9 /* EatOK.xcdatamodeld in Sources */,
+				388626621B817C7F00B86BD9 /* BigFooterUIButton.m in Sources */,
+				388626461B814B8500B86BD9 /* MenuCollectionViewLayout.m in Sources */,
+				388626321B7FB04D00B86BD9 /* MainCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +513,10 @@
 		};
 		388626271B7F9EAA00B86BD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DB9B422D684AF8C0A874FB /* Pods-EatOK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EatOK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,8 +525,10 @@
 		};
 		388626281B7F9EAA00B86BD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7A313E15C5092180DC89315 /* Pods-EatOK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EatOK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +588,7 @@
 				388626281B7F9EAA00B86BD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388626291B7F9EAA00B86BD9 /* Build configuration list for PBXNativeTarget "EatOKTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +597,7 @@
 				3886262B1B7F9EAA00B86BD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

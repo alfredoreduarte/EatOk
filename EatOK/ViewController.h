@@ -7,9 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MainCollectionViewController.h"
+#import "MenuCollectionViewController.h"
+#import "SelectedCollectionViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ItemSelectionDelegate, MenuItemSelectionDelegate>
 
+
+#pragma mark Properties
+@property (strong, nonatomic) MainCollectionViewController *mainCollectionViewController;
+@property (strong, nonatomic) MenuCollectionViewController *menuCollectionViewController;
+@property (strong, nonatomic) SelectedCollectionViewController *selectedCollectionViewController;
 
 @end
 
